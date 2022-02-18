@@ -73,7 +73,7 @@ def load_MVSEC(root: str, scenario:str, split:str, num_frames_per_depth_map, war
         return test_set
 
 
-class MVSEC_sequence(Dataset):
+class MVSEC_sequence(Dataset):  #TODO: MODIFY FOR OPTICAL FLOW
     """
     Neuromorphic dataset class to hold MVSEC data.
 
